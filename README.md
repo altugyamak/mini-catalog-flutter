@@ -1,17 +1,65 @@
-# mini_katalog_app
+# Mini Catalog Flutter App
 
-A new Flutter project.
+This project is a simple Flutter mobile application developed during my **Software Development Internship at Software Persona** as part of a Flutter training program.
 
-## Getting Started
+The application demonstrates fundamental Flutter concepts including UI layout, product listing using GridView, page navigation, search functionality, and basic state management.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Product catalog displayed using GridView
+- Product detail page
+- Page navigation using Navigator
+- Search functionality
+- Simple cart simulation
+- Clean Material UI design
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Material UI Widgets
+
+## Flutter Version
+
+Flutter 3.41.4
+
+## How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/altugyamak/mini-catalog-flutter.git
+```
+
+2. Go to the project directory
+
+```bash
+cd mini-catalog-flutter
+```
+
+3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+4. Run the application
+
+```bash
+flutter run
+```
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Product Detail Page
+![Product Detail Page](screenshots/detail.png)
+
+### Add to Cart
+![Add to Cart](screenshots/cart.png)
+
+## Project Purpose
+
+This project was created as part of a Flutter training program to practice building a simple catalog-style mobile application. It focuses on understanding Flutter’s widget structure, navigation system, UI design, and basic state updates.
