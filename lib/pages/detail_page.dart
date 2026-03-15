@@ -5,6 +5,7 @@ class DetailPage extends StatelessWidget {
   final String name;
   final String price;
   final String description;
+  final String image;
   final VoidCallback onAddToCart;
 
   const DetailPage({
@@ -12,6 +13,7 @@ class DetailPage extends StatelessWidget {
     required this.name,
     required this.price,
     required this.description,
+    required this.image,
     required this.onAddToCart,
   });
 
@@ -37,10 +39,12 @@ class DetailPage extends StatelessWidget {
                 color: Colors.deepPurple.shade50,
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: const Icon(
-                Icons.devices,
-                size: 90,
-                color: Colors.deepPurple,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Image.asset(
+                  image,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
 

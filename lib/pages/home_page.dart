@@ -17,31 +17,37 @@ class _HomePageState extends State<HomePage> {
     {
       'name': 'Laptop',
       'price': '\$1200',
+      'image': 'assets/images/laptop.jpg',
       'description': 'A powerful laptop suitable for study, projects and daily work.'
     },
     {
       'name': 'Headphones',
       'price': '\$120',
+      'image': 'assets/images/headphones.jpg',
       'description': 'Wireless headphones with high sound quality.'
     },
     {
       'name': 'Smartwatch',
       'price': '\$220',
+      'image': 'assets/images/watch.jpg',
       'description': 'Smartwatch with activity tracking and notifications.'
     },
     {
       'name': 'Mouse',
       'price': '\$40',
+      'image': 'assets/images/mouse.jpg',
       'description': 'Ergonomic and precise wireless mouse.'
     },
     {
       'name': 'Keyboard',
       'price': '\$70',
+      'image': 'assets/images/keyboard.jpg',
       'description': 'Comfortable and stylish keyboard.'
     },
     {
       'name': 'Smartphone',
       'price': '\$900',
+      'image': 'assets/images/phone.jpg',
       'description': 'Modern smartphone with high performance.'
     },
   ];
@@ -125,7 +131,7 @@ class _HomePageState extends State<HomePage> {
                   crossAxisCount: 2,
                   crossAxisSpacing: 12,
                   mainAxisSpacing: 12,
-                  childAspectRatio: 0.78,
+                  childAspectRatio: 0.55,
                 ),
                 itemBuilder: (context, index) {
 
@@ -143,6 +149,7 @@ class _HomePageState extends State<HomePage> {
                             name: product['name']!,
                             price: product['price']!,
                             description: product['description']!,
+                            image: product['image']!,
                             onAddToCart: () {
                               setState(() {
                                 cartCount++;
@@ -164,7 +171,14 @@ class _HomePageState extends State<HomePage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
 
-                          const Icon(Icons.devices, size: 42),
+                          SizedBox(
+                            height: 420,
+                            width: 420,
+                            child: Image.asset(
+                              product['image']!,
+                              fit: BoxFit.contain,
+                            ),
+                          ),
 
                           const SizedBox(height: 10),
 
@@ -174,6 +188,7 @@ class _HomePageState extends State<HomePage> {
                               fontWeight: FontWeight.w600,
                               fontSize: 16,
                             ),
+                            textAlign: TextAlign.center,
                           ),
 
                           const SizedBox(height: 6),
