@@ -60,6 +60,8 @@ flutter run
 ### Add to Cart
 ![Add to Cart](screenshots/cart.png)
 
-## Project Purpose
+## Learning Outcomes
 
-This project was created as part of a Flutter training program to practice building a simple catalog-style mobile application. It focuses on understanding Flutter’s widget structure, navigation system, UI design, and basic state updates.
+Through this project I practiced building a small Flutter application from scratch, including UI layout, navigation between pages, displaying dynamic product lists, and managing simple state updates.
+
+The goal was to gain hands-on experience with Flutter’s widget structure, project organization, and mobile UI design principles.
