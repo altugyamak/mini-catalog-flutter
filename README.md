@@ -73,7 +73,8 @@ Make sure Flutter SDK is installed and properly configured.
 
 ## Project Structure
 
-mini_catalog_app
+```
+mini_katalog_app
 │
 ├── lib
 │   ├── main.dart
@@ -91,6 +92,9 @@ mini_catalog_app
 │       └── phone.jpg
 │
 ├── screenshots
+│   ├── home.png
+│   ├── detail.png
+│   └── cart.png
 │
 ├── android
 ├── ios
@@ -98,6 +102,7 @@ mini_catalog_app
 ├── macos
 ├── pubspec.yaml
 └── README.md
+```
 
 ---
 
