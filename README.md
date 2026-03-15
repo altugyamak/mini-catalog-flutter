@@ -117,5 +117,7 @@ The project focuses on understanding Flutter’s widget structure, navigation sy
 ## Author
 
 Altug Yamak  
-King's College London  
-Email: [altug.yamak@kcl.ac.uk](mailto:altug.yamak@kcl.ac.uk)
+BSc Computer Science – King's College London  
+- GitHub: https://github.com/altugyamak  
+- LinkedIn: https://linkedin.com/in/altugyamak
+- Email: [altug.yamak@kcl.ac.uk](mailto:altug.yamak@kcl.ac.uk)
