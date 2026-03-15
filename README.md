@@ -74,7 +74,7 @@ Make sure Flutter SDK is installed and properly configured.
 ## Project Structure
 
 ```
-mini_katalog_app
+mini_catalog_app
 │
 ├── lib
 │   ├── main.dart
