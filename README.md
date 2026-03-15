@@ -73,29 +73,30 @@ Make sure Flutter SDK is installed and properly configured.
 
 ## Project Structure
 
-mini-catalog-flutter  
-│  
-├── lib  
-│   ├── main.dart  
-│   └── pages  
-│       ├── home_page.dart  
-│       └── detail_page.dart  
-│  
-├── assets  
-│   └── images  
-│       ├── laptop.jpg  
-│       ├── headphones.jpg  
-│       ├── watch.jpg  
-│       ├── mouse.jpg  
-│       ├── keyboard.jpg  
-│       └── phone.jpg  
-│  
-├── screenshots  
-│   ├── home.png  
-│   ├── detail.png  
-│   └── cart.png  
-│  
-├── pubspec.yaml  
+mini_catalog_app
+│
+├── lib
+│   ├── main.dart
+│   └── pages
+│       ├── home_page.dart
+│       └── detail_page.dart
+│
+├── assets
+│   └── images
+│       ├── laptop.jpg
+│       ├── headphones.jpg
+│       ├── watch.jpg
+│       ├── mouse.jpg
+│       ├── keyboard.jpg
+│       └── phone.jpg
+│
+├── screenshots
+│
+├── android
+├── ios
+├── linux
+├── macos
+├── pubspec.yaml
 └── README.md
 
 ---
