@@ -4,7 +4,7 @@
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 
-This project is a simple Flutter mobile application developed during my **Software Development Internship at Software Persona** as part of a Flutter training program.
+This project is a Flutter-based mobile application developed during my Software Development Internship at Software Persona as part of a mobile application development training program focused on building Android and iOS apps with Flutter.
 
 The application demonstrates fundamental Flutter concepts including UI layout, product listing using GridView, page navigation, search functionality, asset image usage, and basic state management.
 
